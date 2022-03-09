@@ -9,9 +9,9 @@ Node implementation of calculation to generate SSCC check digit, using behaviour
 ## Command Line
 node app --vendor=<your vendor ID number> --shipnumb=<pallet identifier>
 
-Example would be --vendor=1234567 --shipnumb=876543210
+Example would be --vendor=1234567 --shipnumb=9876543210
 
-This will run a calculation and return a check digit of 5 to be appended to the end of your string to complete the full SSCC barcode
+This will run a calculation and return a check digit of 3 to be appended to the end of your string to complete the full SSCC barcode
   
 ## To-do
 1. Implement web interface
