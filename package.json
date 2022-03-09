@@ -1,0 +1,23 @@
+{
+  "name": "getsscc-js",
+  "version": "1.0.0",
+  "description": "NodeJS implementation of GetSSCC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidShears/GetSSCC-JS.git"
+  },
+  "author": "David Shears",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidShears/GetSSCC-JS/issues"
+  },
+  "homepage": "https://github.com/DavidShears/GetSSCC-JS#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "yargs": "^17.3.1"
+  }
+}
