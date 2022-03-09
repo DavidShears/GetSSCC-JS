@@ -26,7 +26,7 @@ if (digits.length != 17) {
 }
 
 var checkdigit = GetCheck(digits);
-console.log(checkdigit);
+console.log(digits + checkdigit.toString());
 
 // Check digit is calculated by taking the vendor number and shipping number
 // multiply first digit by 3, second digit by 1, repeat until end
@@ -40,7 +40,6 @@ console.log(checkdigit);
 // 7 is the check digit
 
 function GetCheck(digits) {
-    console.log(digits);
     var total = (parseInt(digits[0]) * 3) +
     (digits[1] * 1) + (digits[2] * 3) +
     (digits[3] * 1) + (digits[4] * 3) +
@@ -50,7 +49,6 @@ function GetCheck(digits) {
     (digits[11] * 1) + (digits[12] * 3) +
     (digits[13] * 1) + (digits[14] * 3) +
     (digits[15] * 1) + (digits[16] * 3) 
-    console.log(total);
     if (total % 10 == 0) {
         return('0');
     } else {
