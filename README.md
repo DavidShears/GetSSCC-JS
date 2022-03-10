@@ -4,7 +4,7 @@ Node implementation of calculation to generate SSCC check digit, using behaviour
 ## Requirements
 
 * Yargs is used to handle the arguments passed in the command line
-* Express is used to handle the web interface (coming soon)
+* Express & EJS are used to handle the web interface (coming soon)
 
 ## Command Line
 node app --vendor=<your vendor ID number> --shipnumb=<pallet identifier>
